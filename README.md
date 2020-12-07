@@ -1,2 +1,2 @@
-`# Twitch-Clone`
+# `Twitch-Clone`
    #### [View App]()
