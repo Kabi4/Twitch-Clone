@@ -1,0 +1,96 @@
+.header__left__logo{
+    object-fit: contain;
+    height: 3rem;
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #18181b;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    height: 5rem;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__left > h2,.header__left > i{
+    margin-left: 15px;
+}
+
+.header__vertical{
+    height: 3rem;
+    border-right: 1px solid #4a4a4c;
+    margin-left: 15px;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    height: 3.5rem;
+    width: 25%;
+    background-color: #4a4a4c;
+    overflow: hidden;    
+    margin-left: 15px;
+    flex: 1;
+}
+.header__right{
+    
+    display: flex;
+    align-items: center;
+}
+
+.header__right__container{
+    justify-content: space-between;display: flex;
+    align-items: center;
+}
+
+.header__center__search{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: large;
+    margin-left: 15px;
+    
+}
+
+.header__center__logo{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    background-color: #2b2b2d;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.header__right__container > i,.header__right__container > div{
+    margin: 20px;
+}
+
+.header__right__bits{
+    display: flex;
+    align-items: center;
+    background-color: #4a4a4c;
+    height: 3.5rem;
+    border-radius: 15px;
+    padding: 0 20px;
+    margin-right: 5px;
+}
+
+.header__right__bits > i{
+    margin-right: 5px;
+}
+
+.header__right__avatar{
+    margin: 0 10px;
+}

@@ -1,0 +1,64 @@
+.stream{
+    
+    height: 75%;
+    display: grid;
+    place-items: center;
+    margin: 40px;
+    background-image: url(../Assets/TO.png);
+    padding: 20px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.stream__container{
+    display: flex;
+    margin-left: 50px;
+}
+
+.stream__status{
+    width: 400px;
+    height: 295px;
+    background-color: #1f1f23;
+    margin-right: 30px;
+}
+
+.stream__status__contianer{
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.stream__statusIndicator{
+    background-color: white;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 5px 10px;
+    color: #1f1f23;
+    margin-bottom: 20px;
+}
+
+.stream__status__container__top{
+    flex: 1;
+}
+
+.stream__status__container__bottom{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.stream__status__container__bottom > i{
+    margin-right: 20px;
+}
+
+.stream__status > div >div >h2{
+    font-size:35px;
+}
+
+.stream__vediosEmbed{
+    margin-left: -60px;
+    margin-top: 20px;
+}
