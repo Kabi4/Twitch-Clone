@@ -1,2 +1,3 @@
 # `Twitch-Clone`
-   #### [View App](https://twitch-c2eda.web.app/)
+   #### [View App Here](https://twitch-c2eda.web.app/)
+This App is made by `CREATE-REACT-APP` by facebook
